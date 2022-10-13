@@ -1,54 +1,37 @@
 {
+    "$schema": "https://bitbucket.microchip.com/projects/CITD/repos/metadata-schema/raw/main-schema.json?at=refs%2Fheads%2Fdevelop",
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.3.0",
-        "name": "com.microchip.mcu8.mplabx.project.test_example_for_pic_avr_solutions",
-        "version": " ",
-        "displayName": "",
-        "projectName": "test_example_for_pic_avr_solutions",
-        "shortDescription": "test description",
+        "name": "com.microchip.mcu8.arduino.project.avr-iot-cellular-arduino-library",
+        "version": "1.0.0",
+        "displayName": "AVR-IoT Cellular Arduino Library",
+        "projectName": "avr-iot-cellular-arduino-library",
+        "shortDescription": "Arduino Compatible Library for the AVR-IoT Cellular Mini board",
         "ide": {
-            "name": "NA",
-            "semverRange": ">="
+            "name": "Arduino",
+            "semverRange": ">=1.8.16"
         },
-        "compiler": [
-            {
-                "name": "PYTHON",
-                "semverRange": "^3.8.14"
-            }
-        ],
+        "compiler": [{
+            "name": "AVR GCC",
+            "semverRange": "^5.4.0"
+        }],
         "dfp": {
-            "name": "",
-            "semverRange": ""
-        },
-        "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.3.65"
         },
         "device": {
-            "metaDataVersion": "1.0.0",
-            "category": "com.microchip.portal.contentRef",
-            "content": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.device",
-                "name": "",
-                "versionRange": "*"
-            }
+            "name": "AVR128DB48"
         },
-        "author": "Prasad Aradhya",
+        "author": "Johan Lofstad",
         "peripherals": [],
-        "keywords": [],
-        "additionalData": {
-            "longDescription": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.fileRef",
-                "content": {
-                    "metaDataVersion": "1.0.0",
-                    "fileName": "./README.md",
-                    "mimeType": "text/markdown"
-                }
-            }
-        }
+        "keywords": [
+            "Arduino",
+            "IoT",
+            "IoT Provisioning",
+            "Cellular Network",
+            "Library"
+        ]
     }
 }

@@ -1,6 +1,11 @@
-# Untracked files in MPLABX projects
-/**/build/*
-/**/nbproject/*
-!/**/nbproject/*.xml
-/**/dist/*
-/**/.generated_files/*
+.ccls
+build/
+.ccls-cache
+.vscode/c_cpp_properties.json
+.vscode/arduino.json
+deploy_sandbox
+builds
+lib/cryptoauth/cryptoauthlib
+lib/cryptoauth/build48
+lib/cryptoauth/build64
+__pycache__/
