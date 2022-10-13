@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.test_example_for_pic_avr_solutions",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "test_example_for_pic_avr_solutions",
         "projectName": "test_example_for_pic_avr_solutions",
         "shortDescription": "Firmware used during the cloud provisioning process for PIC-IoT Wx, see https://pic-iot.com/",
